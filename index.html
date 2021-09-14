@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Calculadora digital en HTML5/CSS3/JavaScript</h1>
+    </header>
+    
+    <div class="contenedor">
+        <div class="carcasa">
+            <div class="pantalla">
+                <div class="screen">
+                    <span class="digital" id="screen">0</span>
+                </div>
+                
+            </div>
+            <div class="pad">
+                <div class="padizquierdo">
+                    <div class="seccion1">
+                        <button class="boton" type="button" onclick="GuardaA(this.innerHTML)">/</button>
+                        <button class="boton" type="button" onclick="GuardaA(this.innerHTML)">x</button>
+                        <button class="boton" type="button" onclick="GuardaA(this.innerHTML)">-</button>
+                    </div>
+                    <div class="seccion2">
+                        <button class="boton" type="button" onclick="Numero(this.innerHTML)">7</button>
+                        <button class="boton" type="button" onclick="Numero(this.innerHTML)">8</button>
+                        <button class="boton" type="button" onclick="Numero(this.innerHTML)">9</button>
+                    </div>
+                    <div class="seccion3">
+                        <button class="boton" type="button" onclick="Numero(this.innerHTML)">4</button>
+                        <button class="boton" type="button" onclick="Numero(this.innerHTML)">5</button>
+                        <button class="boton" type="button" onclick="Numero(this.innerHTML)">6</button>
+                     </div>  
+                     <div class="seccion4">  
+                        <button class="boton" type="button" onclick="Numero(this.innerHTML)">1</button>
+                        <button class="boton" type="button" onclick="Numero(this.innerHTML)">2</button>
+                        <button class="boton" type="button" onclick="Numero(this.innerHTML)">3</button>
+                        
+                    </div>
+                    <div class="seccion5">  
+                        <button class="boton" type="button" onclick="Numero(this.innerHTML)">.</button>
+                        <button class="botoncero" type="button" onclick="Numero(this.innerHTML)">0</button>
+                    </div>
+                </div>
+
+                <div class="padderecho">
+                    <button class="boton" type="button" onclick="GuardaA(this.innerHTML)">+</button>
+                    <button class="boton" type="button" onclick="BorraCalculo ()">C</button>
+                    <button class="boton" type="button" onclick="BotonCE ()">CE</button>
+                    <button class="botonigual" type="button" onclick="Resultado()">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <span class="piepagina"> Víctor Manuel Pinedo Fernández  |  Programación Web  |  ITPachuca  |  HTML-CSS-Javascript</span>
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
