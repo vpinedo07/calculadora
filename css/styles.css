@@ -13,9 +13,8 @@ body {
 }
 
 .contenedor {
-  margin: 180px 0px 0px 100px;
-  width: 200px;
   transform: scale(2, 2);
+  transform-origin: left top;
 }
 
 .carcasa {
