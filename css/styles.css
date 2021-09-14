@@ -10,17 +10,15 @@ body {
   margin: 0px;
   padding: 0px;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   background-color: rgb(2, 31, 58);
-  overflow: hidden;
 }
 
 .contenedor {
-  width: 100vh;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   transform: scale(2, 2);
   transform-origin: left top;
-  overflow: hidden;
 }
 
 .carcasa {
