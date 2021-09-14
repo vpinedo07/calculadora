@@ -12,6 +12,7 @@ body {
   width: auto;
   background-color: rgb(2, 31, 58);
   overflow: hidden;
+  resize: none;
 }
 
 .contenedor {
